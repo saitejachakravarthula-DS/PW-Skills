@@ -1,4 +1,4 @@
-# comparison of the use cases for tuples and sets in Python programming:
+# Comparison of the use cases for tuples and sets in Python programming:
 
 | Use Case                    | Tuples                                                     | Sets                                                        |
 |-----------------------------|------------------------------------------------------------|-------------------------------------------------------------|
@@ -25,7 +25,7 @@
 | **Memory Efficiency**        | `import sys; print(sys.getsizeof((1, 2, 3)))`                | `import sys; print(sys.getsizeof({1, 2, 3}))`                 |
 | **Removing Duplicates**      | Not applicable                                               | `numbers = [1, 2, 2, 3]; unique_numbers = set(numbers)`       |
 | **Membership Testing**       | `coordinates = (1, 2, 3); 1 in coordinates`                  | `vowels = {'a', 'e', 'i', 'o', 'u'}; 'a' in vowels`           |
-| **Mathematical Set Operations** | Not applicable                                           | `A = {1, 2, 3}; B = {3, 4, 5}; print(A | B, A & B, A - B, A ^ B)` |
+| **Mathematical Set Operations** | Not applicable                                           | Applicable |
 | **Tracking Unique Items**    | Not applicable                                               | `visitors = {"Alice", "Bob"}; visitors.add("David")`          |
 | **Filtering Data**           | Not applicable                                               | `allowed_items = {"apple", "banana"}; items = ["apple", "date"]; filtered_items = [item for item in items if item in allowed_items]` |
 | **Set-Based Algorithms**     | Not applicable                                               | `A = {1, 2, 3}; B = {3, 4, 5}; common_elements = A & B`        |
