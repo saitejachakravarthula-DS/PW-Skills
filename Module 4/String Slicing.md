@@ -1,3 +1,4 @@
+# String Slicing in Python
 String slicing in Python is a powerful feature that allows you to extract parts of a string using a specific syntax. The basic syntax for slicing a string is:
 
 ```python
